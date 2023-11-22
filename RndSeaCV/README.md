@@ -25,30 +25,6 @@ Evaluation Report: Generates a CSV/Excel report summarizing the model's accuracy
 ## Instructions
 
 Clone the Repository:
-git clone https://github.com/Samxnx/NewsScraping.git
-cd NewsScraping
+``` git clone https://github.com/Samxnx/NewsScraping.git ```
+```cd NewsScraping ```
 
-## Installation
-
-Provide step-by-step instructions on how to install and set up the
-project. For example:
-
-1. Clone the repository:
-
-``` bash git clone 
-https://github.com/your-username/your-repository.git ```
-
-2. Change into the project directory:
-
-```bash cd your-repository ```
-
-3. Install the required dependencies:
-
-```bash pip install -r requirements.txt ```
-
-## Usage
-
-Explain how to use the app. Provide instructions on running the main
-script or any specific commands. For example:
-
-```bash python your_main_script.py
