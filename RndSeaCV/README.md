@@ -1,10 +1,10 @@
-\# Your Project Name
+# News Scraping For BBC
 
 Brief project description and its purpose.
 
-\## Table of Contents
+## Table of Contents
 
-\- \[Prerequisites\](#prerequisites) - \[Installation\](#installation) -
+\ - \ [Prerequisites\](#prerequisites) - \[Installation\](#installation) -
 \[Usage\](#usage) - \[Contributing\](#contributing) -
 \[License\](#license)
 
