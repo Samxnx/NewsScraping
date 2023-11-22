@@ -1,40 +1,54 @@
+# Web Scraping and Classification
+
+For this project I have used following third-party packages: 
+* NumPy, 
+* Pandas,
+* BeautifulSoup (bs4),
+* urllib.requests.
 # News Scraping For BBC
 
-Brief project description and its purpose.
+This project focuses on scraping news articles from a public news website of your choice wherein this case i have used BBC website which has its terms and conditions applied. The script collects approximately 100 news articles and categorizes them using the website's predefined classifications (e.g., sections like politics, business, technology). The primary goal is to assess the effectiveness of a text classification model in correctly categorizing news articles.
 
 ## Table of Contents
 
-\ - \ [Prerequisites\](#prerequisites) - \[Installation\](#installation) -
-\[Usage\](#usage) - \[Contributing\](#contributing) -
-\[License\](#license)
+Key Features
+Website Agnostic Scraping: The scraping script is designed to work with any news website URL that contains articles, providing flexibility for different sources.
 
-\## Prerequisites
+Replicable Setup: The project includes a setup that can be easily replicated on other machines, ensuring consistency for testing and code deployment.
 
-List any prerequisites or dependencies that need to be installed before
-running the app. For example: - Python 3 - Required Python libraries
-(mention them) - \...
+Data Storage: Scraped data is stored in a dedicated folder along with the script, promoting organization and easy access to the collected articles.
 
-\## Installation
+Text Classification Model: Utilizes a text classification model of your choice to classify news articles based on predefined sections.
+
+Evaluation Report: Generates a CSV/Excel report summarizing the model's accuracy and performance on the test dataset
+
+## Instructions
+
+Clone the Repository:
+git clone https://github.com/Samxnx/NewsScraping.git
+cd NewsScraping
+
+## Installation
 
 Provide step-by-step instructions on how to install and set up the
 project. For example:
 
-1\. Clone the repository:
+1. Clone the repository:
 
-\`\`\`bash git clone
-https://github.com/your-username/your-repository.git \`\`\`
+``` bash git clone 
+https://github.com/your-username/your-repository.git ```
 
-2\. Change into the project directory:
+2. Change into the project directory:
 
-\`\`\`bash cd your-repository \`\`\`
+```bash cd your-repository ```
 
-3\. Install the required dependencies:
+3. Install the required dependencies:
 
-\`\`\`bash pip install -r requirements.txt \`\`\`
+```bash pip install -r requirements.txt ```
 
-\## Usage
+## Usage
 
 Explain how to use the app. Provide instructions on running the main
 script or any specific commands. For example:
 
-\`\`\`bash python your_main_script.py
+```bash python your_main_script.py
